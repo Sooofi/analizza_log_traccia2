@@ -27,7 +27,7 @@ def main():
         print(f"Risultati salvati in: {output_path}")
     except Exception as e:
         print(f"Errore durante l'analisi: {e}")
-
+    save_results
 
 if __name__ == "__main__":
     main()
